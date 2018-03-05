@@ -1,0 +1,23 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/eui/eui.js",
+		"libs/modules/assetsmanager/assetsmanager.js",
+		"libs/modules/tween/tween.js",
+		"libs/modules/socket/socket.js",
+		"libs/modules/promise/promise.js",
+		"libs/protoBuf/bin/protobuf/protobuf.js"
+	],
+	"game": [
+		"bin-debug/GameNetwork.js",
+		"bin-debug/LoadingUI.js",
+		"bin-debug/Main.js",
+		"bin-debug/MessageCode.js",
+		"bin-debug/Network/HostAdress.js",
+		"bin-debug/Network/INetSocket.js",
+		"bin-debug/Network/NetHttp.js",
+		"bin-debug/Network/NetSocket.js",
+		"bin-debug/Network/NetUtil.js"
+	]
+}

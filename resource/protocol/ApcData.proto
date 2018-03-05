@@ -1,0 +1,7 @@
+syntax = "proto3";
+package Protocol;
+
+message ApcData{
+	int32 ID = 1; //协议ID
+	bytes Body = 2; //协议内容，一个proto序列化的二进制数据
+}
